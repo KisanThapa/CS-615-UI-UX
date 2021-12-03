@@ -1,0 +1,18 @@
+*{
+    overflow-x: hidden;
+}
+
+html{
+    background-color: white;
+}
+
+
+
+body{
+width: 375px;
+height: 812px;
+
+background: #F4F4F4;
+border-radius: 32px;
+overflow-y: hidden;
+}
