@@ -1,0 +1,382 @@
+.title{
+    position: absolute;
+width: 189px;
+height: 34px;
+left: 96px;
+top: 40px;
+
+/* Regular/None/Medium */
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 16px;
+
+/* or 50% */
+text-align: center;
+
+color: #000000;
+}
+
+.welcome{
+    position: absolute;
+width: 189px;
+height: 82px;
+left: 93px;
+top: 80px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* or 114% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.searchForm{
+    width: 327px;
+height: 48px;
+top: 152px;
+left: 24px;
+border-radius: 8px;
+position: absolute;
+right: 24px;
+}
+
+input:focus {
+    outline:none;
+    box-shadow: none;
+}
+
+.search{
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Sky/White */
+background: #FFFFFF;
+
+/* Sky/Light */
+border: 1px solid #E3E5E6;
+border-radius: 8px;
+
+background-image: url(../imgs/map_marker.svg);
+background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+height: 90%;
+background-size: 27px;
+padding-left: 47px;
+font-size: 18px;
+}
+
+.sortBy{
+
+position: absolute;
+width: 46px;
+height: 27px;
+left: 26px;
+top: 217px;
+
+font-family: Inter;
+font-style: italic;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+
+/* or 123% */
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.filter{
+
+}
+
+.room1{
+    position: absolute;
+width: 327px;
+height: 238px;
+left: 24px;
+top: 250px;
+
+/* Sky/White */
+background: #FFFFFF;
+border-radius: 16px;
+}
+
+.pic1{
+    border-radius: 16px 16px 0px 0px;
+width: 327px;
+height: 167px;
+top: 250px;
+left: 24px;
+position: absolute;
+}
+
+.marker1{
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 27px;
+top: 425px;
+
+
+}
+
+.location1{
+    position: absolute;
+width: 210px;
+height: 28px;
+left: 47px;
+top: 423px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+
+/* or 171% */
+
+/* Ink/Darkest */
+color: #090A0A;
+}
+
+.heart1{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 325px;
+top: 423px;
+}
+
+.person1{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 27px;
+top: 454px;
+}
+
+.name1{
+    position: absolute;
+width: 67px;
+height: 18px;
+left: 47px;
+top: 456px;
+
+/* Tiny/Normal/Regular */
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+/* or 133% */
+text-align: center;
+
+/* Ink/Darkest */
+color: #090A0A;
+}
+
+.dollar1{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 152px;
+top: 455px;
+}
+
+.amount1{
+    position: absolute;
+width: 67px;
+height: 18px;
+left: 164px;
+top: 456px;
+
+/* Tiny/Normal/Regular */
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+/* or 133% */
+text-align: center;
+
+/* Ink/Darkest */
+color: #090A0A;
+}
+
+.time1{
+    position: absolute;
+width: 67px;
+height: 18px;
+left: 276px;
+top: 470px;
+
+font-family: Inter;
+font-style: italic;
+font-weight: 300;
+font-size: 10px;
+line-height: 16px;
+
+/* or 160% */
+text-align: center;
+
+/* Ink/Darkest */
+color: #090A0A;
+}
+
+.room2{
+    position: absolute;
+width: 327px;
+height: 238px;
+left: 24px;
+top: 501px;
+
+/* Sky/White */
+background: #FFFFFF;
+border-radius: 16px;
+}
+
+.pic2{
+    position: absolute;
+    width: 327px;
+    height: 167px;
+    top: 501px;
+    left: 24px;
+border-radius: 16px 16px 0px 0px;
+}
+
+.marker2{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 27px;
+top: 676px;
+}
+
+.location2{
+    position: absolute;
+width: 296px;
+height: 28px;
+left: 47px;
+top: 674px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+
+/* or 171% */
+
+/* Ink/Darkest */
+color: #090A0A;
+}
+
+.heart2{
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 325px;
+top: 674px;
+}
+
+.person2{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 27px;
+top: 705px;
+}
+
+.name2{
+
+position: absolute;
+width: 81px;
+height: 18px;
+left: 47px;
+top: 707px;
+
+/* Tiny/Normal/Regular */
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+/* or 133% */
+
+/* Ink/Darkest */
+color: #090A0A;
+}
+
+.dollar2{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 152px;
+top: 706px;
+}
+
+.amount2{
+
+position: absolute;
+width: 67px;
+height: 18px;
+left: 164px;
+top: 707px;
+
+/* Tiny/Normal/Regular */
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+/* or 133% */
+text-align: center;
+
+/* Ink/Darkest */
+color: #090A0A;
+}
+
+.time2{
+    position: absolute;
+width: 67px;
+height: 18px;
+left: 276px;
+top: 721px;
+
+font-family: Inter;
+font-style: italic;
+font-weight: 300;
+font-size: 10px;
+line-height: 16px;
+
+/* or 160% */
+text-align: center;
+
+/* Ink/Darkest */
+color: #090A0A;
+
+
+}
