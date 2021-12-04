@@ -1,18 +1,140 @@
-*{
-    overflow-x: hidden;
+* {
+  overflow-x: hidden;
 }
 
-html{
-    background-color: white;
+html {
+  background-color: white;
 }
 
+body {
+  width: 375px;
+  height: 812px;
 
+  background: #f4f4f4;
+  border-radius: 22px;
+  overflow-y: hidden;
+}
 
-body{
-width: 375px;
-height: 812px;
+/* .primaryButton {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 48px;
+  color: #ffffff;
+  background-color: #6b4eff;
+}
+.primaryButton:hover {
+  background-color: #5f3ffe;
+}
+.primaryButton:active {
+  background-color: #5736ff;
+}
 
-background: #F4F4F4;
-border-radius: 32px;
-overflow-y: hidden;
+.secondaryButton {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 48px;
+  color: #6b4eff;
+  background-color: #ffffff;
+}
+
+.secondaryButton:hover {
+  background-color: #dedede;
+}
+.secondaryButton:active {
+  background-color: #dbdbdb;
+} */
+
+.statusBar {
+  position: absolute;
+  height: 44px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+.time {
+  position: absolute;
+  width: 33px;
+  height: 16px;
+  left: 30px;
+  top: calc(50% - 16px / 2 + 2px);
+
+  /* Regular/None/Medium */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+
+  /* Ink/Darkest */
+
+  color: #090a0a;
+}
+
+.mobileSignal {
+  /* Mobile Signal */
+
+  position: absolute;
+  width: 18px;
+  height: 10px;
+  left: 288px;
+  top: 20.5px;
+}
+
+.wifi {
+  position: absolute;
+  width: 15.27px;
+  height: 10.97px;
+  left: 311px;
+  top: 19px;
+}
+
+.battery {
+  position: absolute;
+  width: 26.98px;
+  height: 13px;
+  left: 332px;
+  top: 18px;
+}
+
+.footer {
+  position: absolute;
+  height: 30px;
+  width: 375px;
+  left: 8px;
+  right: 0px;
+  top: 789px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+}
+
+.bottomSeperator {
+  position: absolute;
+  width: 148px;
+  height: 5px;
+  left: calc(50% - 148px / 2 + 0.5px);
+  bottom: 8px;
+  background: #090a0a;
+  border-radius: 2.5px;
 }

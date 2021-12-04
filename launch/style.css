@@ -1,0 +1,119 @@
+* {
+  overflow-x: hidden;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  width: 375px;
+  height: 812px;
+
+  background: #f4f4f4;
+  border-radius: 32px;
+  overflow-y: hidden;
+}
+
+.title {
+  position: absolute;
+  width: 287px;
+  height: 56px;
+  left: 49px;
+  top: 47px;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+
+  /* or 44% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.appLogo {
+  position: absolute;
+  width: 169px;
+  height: 193px;
+  left: 103px;
+  top: 213px;
+}
+
+.button {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 48px;
+}
+
+.signIn {
+  position: absolute;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+  top: 512px;
+  background-color: #ffffff;
+}
+.signIn:hover {
+  background-color: #dedede;
+}
+.signIn:active {
+  background-color: #dbdbdb;
+}
+
+.createAccount {
+  position: absolute;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+  top: 587px;
+  color: #ffffff;
+  background-color: #6b4eff;
+}
+.createAccount:hover {
+  background-color: #5f3ffe;
+}
+
+.createAccount:active {
+  background-color: #5736ff;
+}
+
+.facebookLogin {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 114px;
+  top: 711px;
+  border: 0px;
+
+  transition: transform .2s;
+}
+
+.facebookLogin:hover{
+    transform: scale(1.09);
+}
+
+.googleLogin {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 222px;
+  top: 711px;
+  border: 0px;
+
+  transition: transform .2s;
+}
+
+.googleLogin:hover{
+    transform: scale(1.09);
+}
