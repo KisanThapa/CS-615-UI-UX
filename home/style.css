@@ -103,7 +103,11 @@ color: #000000;
 }
 
 .filter{
-
+    width: 32px;
+    height: 32px;
+    top: 209px;
+    left: 315px;
+    position: absolute;
 }
 
 .room1{
