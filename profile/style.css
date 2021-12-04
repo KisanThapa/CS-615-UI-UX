@@ -1,0 +1,264 @@
+.scroll{
+    height: 89%;
+overflow-y: scroll;
+position: relative;
+}
+
+.title{
+    position: absolute;
+    width: 211px;
+    height: 56px;
+    left: 144px;
+    top: 33px;
+    
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 16px;
+    
+    /* or 50% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.photoCircle{
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 18px;
+top: 116px;
+
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 50%;
+
+}
+
+.camera{
+
+}
+
+.subtitle{
+    position: absolute;
+width: 204px;
+height: 22px;
+left: 166px;
+top: 162px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 16px;
+
+/* or 89% */
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.subtitle2{
+    position: absolute;
+width: 204px;
+height: 22px;
+left: 166px;
+top: 184px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 16px;
+
+/* or 89% */
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.edit{
+
+position: absolute;
+height: 48px;
+left: 24px;
+top: 268px;
+
+/* Primary/Base */
+background: #6B4EFF;
+border-radius: 48px;
+color:white;
+width: 327px;
+height: 48px;
+}
+
+.gender{
+    position: absolute;
+width: 139px;
+height: 18px;
+left: 29px;
+top: 346px;
+
+/* Regular/None/Medium */
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+
+/* or 100% */
+
+color: #000000;
+
+
+}
+
+.gender2{
+
+position: absolute;
+width: 327px;
+height: 48px;
+left: 24px;
+top: 368px;
+
+background: #FFFFFF;
+border: 1px solid #E3E5E5;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.location{
+    position: absolute;
+width: 139px;
+height: 18px;
+left: 29px;
+top: 439px;
+
+/* Regular/None/Medium */
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+
+/* or 100% */
+
+color: #000000;
+}
+
+.location2{
+    position: absolute;
+width: 327px;
+height: 48px;
+left: 24px;
+top: 461px;
+
+background: #FFFFFF;
+border: 1px solid #E3E5E5;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.school{
+    position: absolute;
+width: 139px;
+height: 18px;
+left: 29px;
+top: 532px;
+
+/* Regular/None/Medium */
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+
+/* or 100% */
+
+color: #000000;
+}
+
+.school2{
+
+position: absolute;
+width: 327px;
+height: 48px;
+left: 24px;
+top: 554px;
+
+background: #FFFFFF;
+border: 1px solid #E3E5E5;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.passions{
+    position: absolute;
+width: 139px;
+height: 18px;
+left: 29px;
+top: 625px;
+
+/* Regular/None/Medium */
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+
+/* or 100% */
+
+color: #000000;
+}
+
+.passions2{
+    position: absolute;
+width: 327px;
+height: 48px;
+left: 24px;
+top: 647px;
+
+background: #FFFFFF;
+border: 1px solid #E3E5E5;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.aboutMe{
+    position: absolute;
+width: 139px;
+height: 18px;
+left: 29px;
+top: 718px;
+
+/* Regular/None/Medium */
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+
+/* or 100% */
+
+color: #000000;
+}
+
+.aboutMe2{
+    position: absolute;
+width: 327px;
+height: 149px;
+left: 29px;
+top: 743px;
+
+background: #FFFFFF;
+border: 1px solid #E3E5E5;
+box-sizing: border-box;
+border-radius: 8px;
+}
