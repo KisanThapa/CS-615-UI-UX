@@ -1,21 +1,21 @@
 * {
-    overflow-x: hidden;
-  }
-  
-  html {
-    background-color: white;
-  }
-  
-  body {
-    width: 375px;
-    height: 812px;
-  
-    background: #f4f4f4;
-    border-radius: 22px;
-    overflow-y: hidden;
-  }
-  
-  /* .primaryButton {
+  overflow-x: hidden;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  width: 375px;
+  height: 812px;
+
+  background: #f4f4f4;
+  border-radius: 22px;
+  overflow-y: hidden;
+}
+
+/* .primaryButton {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -57,132 +57,154 @@
   .secondaryButton:active {
     background-color: #dbdbdb;
   } */
-  
-  .statusBar {
-    position: absolute;
-    height: 44px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-  }
-  
-  .time {
-    position: absolute;
-    width: 33px;
-    height: 16px;
-    left: 30px;
-    top: calc(50% - 16px / 2 + 2px);
-  
-    /* Regular/None/Medium */
-  
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    /* identical to box height, or 100% */
-  
-    display: flex;
-    align-items: center;
-  
-    /* Ink/Darkest */
-  
-    color: #090a0a;
-  }
-  
-  .mobileSignal {
-    /* Mobile Signal */
-  
-    position: absolute;
-    width: 18px;
-    height: 10px;
-    left: 288px;
-    top: 20.5px;
-  }
-  
-  .wifi {
-    position: absolute;
-    width: 15.27px;
-    height: 10.97px;
-    left: 311px;
-    top: 19px;
-  }
-  
-  .battery {
-    position: absolute;
-    width: 26.98px;
-    height: 13px;
-    left: 332px;
-    top: 18px;
-  }
-  
-  .footer {
-    position: absolute;
-    height: 30px;
-    width: 375px;
-    left: 8px;
-    right: 0px;
-    top: 789px;
-    border-bottom-right-radius: 22px;
-    border-bottom-left-radius: 22px;
-  }
-  
-  .bottomSeperator {
-    position: absolute;
-    width: 148px;
-    height: 5px;
-    left: calc(50% - 148px / 2 + 0.5px);
-    bottom: 8px;
-    background: #090a0a;
-    border-radius: 2.5px;
-  }
 
-  /*************************************
+.statusBar {
+  position: absolute;
+  height: 44px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+.time {
+  position: absolute;
+  width: 33px;
+  height: 16px;
+  left: 30px;
+  top: calc(50% - 16px / 2 + 2px);
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+
+  /* Ink/Darkest */
+
+  color: #090a0a;
+}
+
+.mobileSignal {
+  position: absolute;
+  width: 18px;
+  height: 10px;
+  left: 288px;
+  top: 20.5px;
+}
+
+.wifi {
+  position: absolute;
+  width: 15.27px;
+  height: 10.97px;
+  left: 311px;
+  top: 19px;
+}
+
+.battery {
+  position: absolute;
+  width: 26.98px;
+  height: 13px;
+  left: 332px;
+  top: 18px;
+}
+
+.footer {
+  position: absolute;
+  height: 30px;
+  width: 375px;
+  left: 8px;
+  right: 0px;
+  top: 789px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+}
+
+.bottomSeperator {
+  position: absolute;
+  width: 148px;
+  height: 5px;
+  left: calc(50% - 148px / 2 + 0.5px);
+  bottom: 8px;
+  background: #090a0a;
+  border-radius: 2.5px;
+}
+
+/*************************************
 HOME BAR 
 **************************************/
 
-#homeBar{
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    overflow-y: hidden;
-    left: 8px;
-top: 739px;
-width:375px;
-height: 63px;
-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.19);
-padding-top: 16px;
-background-color: #fff;
-border-radius: 0px 0px 16px 16px;
+#homeBar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  overflow-y: hidden;
+  left: 8px;
+  top: 739px;
+  width: 375px;
+  height: 63px;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.19);
+  padding-top: 16px;
+  background-color: #fff;
+  border-radius: 0px 0px 16px 16px;
 }
 
-.home{
-    text-align: center;
-    display: inline-block;
-    width: 150px;
-height: 55px;
-overflow-y: hidden;
+.home {
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  height: 55px;
+  overflow-y: hidden;
 }
 
-#active{
-    color: #6B4EFF;
-    
+#active {
+  color: #6b4eff;
 }
 
-.homeIcon{
-    width:25px;
+.homeIcon {
+  width: 25px;
 }
 
-.homeLabel{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 12px;
-    
-    /* identical to box height, or 109% */
-    text-align: center;
-    display: block;
-    overflow-y: hidden;
-    color: #6C7072;
+.homeLabel {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 12px;
+
+  /* identical to box height, or 109% */
+  text-align: center;
+  display: block;
+  overflow-y: hidden;
+  color: #6c7072;
+}
+
+.backButton {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 18px;
+  top: 54px;
+  border: 4px;
+  background-color: #ffffff;
+}
+
+.screenTitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+  /* Ink/Darkest */
+
+  color: #090a0a;
 }

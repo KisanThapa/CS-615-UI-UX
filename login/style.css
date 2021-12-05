@@ -1,0 +1,108 @@
+.termsCondition {
+  position: absolute;
+  height: 32px;
+  left: 34px;
+  right: 24px;
+  top: 480px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #090a0a;
+}
+
+.button {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 48px;
+}
+
+.logIn {
+  position: absolute;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 550px;
+  color: #ffffff;
+  background-color: #6b4eff;
+}
+.signIn:hover {
+  background-color: #5f3ffe;
+}
+.signIn:active {
+  background-color: #5736ff;
+}
+
+.loginTitle {
+  position: absolute;
+  width: 53px;
+  height: 18px;
+  left: 170px;
+  top: 38px;
+}
+
+.emailInput {
+  position: absolute;
+  width: 313px;
+  height: 48px;
+  left: 24px;
+  top: 207px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  font-size: 16px;
+
+  background: #ffffff;
+  /* Sky/Light */
+
+  border: 1px solid #e3e5e6;
+  border-radius: 8px;
+}
+
+.passwordInput {
+  position: absolute;
+  width: 313px;
+  height: 48px;
+  left: 24px;
+  top: 272px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+
+  background: #ffffff;
+  /* Sky/Light */
+
+  border: 1px solid #e3e5e6;
+  border-radius: 8px;
+}
+
+.forgetPassword {
+  position: absolute;
+  height: 16px;
+  left: 226px;
+  top: 338px;
+  padding: 2px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: right;
+  color: #6b4eff;
+}
