@@ -1,0 +1,54 @@
+.titleText {
+  position: absolute;
+  width: 140px;
+  height: 18px;
+  left: 130px;
+  top: 38px;
+}
+
+.emailInput {
+  position: absolute;
+  width: 313px;
+  height: 48px;
+  left: 24px;
+  top: 207px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  background: #ffffff;
+  /* Sky/Light */
+
+  border: 1px solid #e3e5e6;
+  border-radius: 8px;
+}
+
+.button {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 48px;
+}
+
+.passwordReset {
+  position: absolute;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 550px;
+  color: #ffffff;
+  background-color: #6b4eff;
+}
+.passwordReset:hover {
+  background-color: #5f3ffe;
+}
+.passwordReset:active {
+  background-color: #5736ff;
+}
