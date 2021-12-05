@@ -16,6 +16,24 @@
 
   color: #090a0a;
 }
+.privacyPolicy {
+  position: absolute;
+  height: 32px;
+  left: 34px;
+  right: 24px;
+  top: 495px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #090a0a;
+}
 
 .button {
   position: absolute;
