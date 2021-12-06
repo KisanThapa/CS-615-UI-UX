@@ -1,0 +1,164 @@
+.title {
+  position: absolute;
+  width: 287px;
+  height: 56px;
+  left: 49px;
+  top: 47px;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+
+  /* or 44% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.addRoomMessage {
+  position: absolute;
+  width: 343px;
+  height: 46px;
+  left: 24px;
+  top: 124px;
+
+  /* Regular/None/Medium */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+.inputTextView{
+  position: absolute;
+  width: 80%;
+  height: 18px;
+  left: 24px;
+  top: 200px;
+
+  /* Regular/None/Medium */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #000000;
+}
+.inputEditText{
+  position: absolute;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+  top: 220px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  background: #ffffff;
+  border: 1px solid #e3e5e5;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.goodTitleTextView {
+  top: 200px;
+}
+.goodTitleEditText {
+  top: 220px;
+}
+
+.address1TextView {
+  top: 280px;
+}
+.address1EditText {
+  top: 300px;
+}
+
+.priceTextView {
+  top: 360px;
+}
+.priceEditText {
+  top: 380px;
+}
+
+.typeTextView {
+  top: 440px;
+}
+.typeEditText {
+  top: 460px;
+}
+
+.bedCountTextView {
+  top: 520px;
+}
+.bedCountEditText {
+  top: 540px;
+}
+
+.downPaymentTextView {
+  top: 600px;
+}
+.downPaymentEditText {
+  top: 620px;
+}
+
+.descriptionTextView {
+  top: 680px;
+}
+.descriptionEditText {
+  top: 700px;
+  height: 140px;
+  padding-top: 15px;
+}
+
+.otherFacilitiesTextView {
+  top: 852px;
+}
+.otherFacilitiesEditText {
+  top: 872px;
+  height: 140px;
+  padding-top: 15px;
+}
+
+.photosTextView {
+  top: 1024px;
+}
+.photosEditText {
+  top: 1044px;
+  height: 140px;
+  padding-top: 15px;
+}
+
+
+.button {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 48px;
+}
+
+
+.publishBtn {
+  position: absolute;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+  right: 24px;
+  top: 1224px;
+  color: #ffffff;
+  background-color: #6b4eff;
+}

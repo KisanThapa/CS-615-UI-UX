@@ -208,3 +208,9 @@ HOME BAR
 
   color: #090a0a;
 }
+
+.scroll {
+  height: 89%;
+  overflow-y: scroll;
+  position: relative;
+}

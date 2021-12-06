@@ -4,16 +4,14 @@
   left: 34px;
   right: 24px;
   top: 480px;
-
+  width: 345px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-
-  display: flex;
   align-items: flex-end;
-
+  text-align: left;
   color: #090a0a;
 }
 .privacyPolicy {
