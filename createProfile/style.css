@@ -1,3 +1,10 @@
+.container{
+    height: 100%;
+    width: 375px;
+    margin: auto;
+    position: relative;
+}
+
 .title{
 
 position: absolute;
@@ -110,7 +117,6 @@ input:focus {
     /* Primary/Base */
     background: #6B4EFF;
     border-radius: 48px;
-    width: 100%;
     height: 48px;
 color: white;
 font-family: Inter;
@@ -118,9 +124,11 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
-margin-top: 41em;
-margin-left: 12px;
+margin-top: 42em;
+margin-left: 20px;
 width: 88%;
+border: 0px;
+
 }
 
 .msg{

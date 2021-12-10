@@ -1,185 +1,86 @@
-.title {
-  position: absolute;
-  width: 287px;
-  height: 56px;
-  left: 49px;
-  top: 47px;
 
-  font-family: "Karla";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 36px;
+    
 
-  /* or 44% */
-  text-align: center;
 
-  color: #000000;
+.title{
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+
+/* or 44% */
+text-align: center;
+
+color: #000000;  
 }
 
 /*************************************
 ETHAN CONVERSATION 
 **************************************/
 
-#ethan {
-  position: absolute;
-  width: 327px;
-  height: 89px;
-  left: 24px;
-  top: 172px;
-  background-color: white;
-  border-radius: 16px;
+#conv{
+    position: relative;
+    height: 89px;
+    background-color:white;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 2em;
+    width: 80%;
 }
 
-#ethanPic {
-  position: absolute;
-  width: 64px;
-  height: 64px;
-  left: 37px;
-  top: 184px;
-  border-radius: 50%;
+#convPic{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 16px;
+top: 11px;
+border-radius: 50%;
 }
 
-#ethanName {
-  position: absolute;
-  width: 204px;
-  height: 22px;
-  left: 112px;
-  top: 180px;
+#convName{
+    position: absolute;
+width: 204px;
+height: 22px;
+left: 95px;
+top: 14px;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
 
-  /* or 114% */
-  display: flex;
-  align-items: center;
-
-  color: #000000;
+color: #000000;
 }
 
-#ethanPreview {
-  position: absolute;
-  width: 171px;
-  height: 35px;
-  left: 113px;
-  top: 205px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 16px;
-
-  /* or 114% */
-  display: flex;
-  align-items: center;
-
-  color: #000000;
+#convPreview{
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    left: 95px;
+    top: 43px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
 }
 
-#ethanTime {
-  position: absolute;
-  width: 64.08px;
-  height: 10.38px;
-  left: 284.49px;
-  top: 246px;
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 300;
-  font-size: 11px;
-  line-height: 16px;
-
-  /* or 145% */
-  display: flex;
-  align-items: center;
-
-  color: #000000;
+#convTime{
+    position: absolute;
+    width: 80px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 11px;    
+    color: #000000;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
 }
 
-/*************************************
-JILL CONVERSATION
-**************************************/
 
-#jill {
-  position: absolute;
-  width: 327px;
-  height: 89px;
-  left: 24px;
-  top: 297px;
 
-  /* Sky/White */
-  background: #ffffff;
-  border-radius: 16px;
-}
-
-#jillPic {
-  position: absolute;
-  width: 64px;
-  height: 64px;
-  left: 37px;
-  top: 309px;
-  border-radius: 50%;
-}
-
-#jillName {
-  position: absolute;
-  width: 204px;
-  height: 22px;
-  left: 112px;
-  top: 305px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
-
-  /* or 114% */
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-
-#jillPreview {
-  position: absolute;
-  width: 171px;
-  height: 35px;
-  left: 113px;
-  top: 330px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 16px;
-
-  /* or 114% */
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-
-#jillTime {
-  position: absolute;
-  width: 78px;
-  height: 22px;
-  left: 277px;
-  top: 364px;
-
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 300;
-  font-size: 11px;
-  line-height: 16px;
-
-  /* or 145% */
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
