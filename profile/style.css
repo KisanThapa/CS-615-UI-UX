@@ -1,7 +1,16 @@
 .scroll{
+    width: 100%;
     height: 89%;
 overflow-y: scroll;
 position: relative;
+margin: auto;
+}
+
+.container{
+    width: 375px;
+    margin: auto;
+    height: 100%;
+    position: relative;
 }
 
 .title{
@@ -9,7 +18,7 @@ position: relative;
     width: 211px;
     height: 56px;
     left: 144px;
-    top: 33px;
+    top: 17px;
     
     font-family: Karla;
     font-style: normal;
@@ -97,6 +106,15 @@ border-radius: 48px;
 color:white;
 width: 327px;
 height: 48px;
+border: 0px;
+}
+
+.placeholder{
+    position: absolute;
+top: 15px;
+left: 15px;
+color: gray;
+font-family: 'Inter';
 }
 
 .gender{
