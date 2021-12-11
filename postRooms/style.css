@@ -1,17 +1,33 @@
+.scroll {
+  width: 100%;
+  height: 89%;
+  overflow-y: scroll;
+  position: relative;
+  margin: auto;
+}
+
+.container {
+  width: 375px;
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+
 .title {
   position: absolute;
-  width: 287px;
+  width: 80%;
   height: 56px;
-  left: 49px;
-  top: 47px;
+  left: 10%;
+  right: 10%;
+  top: 5%;
 
-  font-family: "Karla";
+  font-family: Karla;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 32px;
+  line-height: 16px;
 
-  /* or 44% */
+  align-items: center;
   text-align: center;
 
   color: #000000;
@@ -24,8 +40,6 @@
   left: 24px;
   top: 124px;
 
-  /* Regular/None/Medium */
-
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -35,14 +49,13 @@
   color: #000000;
 }
 
-.inputTextView{
+.inputTextView {
   position: absolute;
   width: 80%;
   height: 18px;
   left: 24px;
   top: 200px;
 
-  /* Regular/None/Medium */
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -51,7 +64,7 @@
 
   color: #000000;
 }
-.inputEditText{
+.inputEditText {
   position: absolute;
   width: 327px;
   height: 48px;
@@ -136,7 +149,6 @@
   padding-top: 15px;
 }
 
-
 .button {
   position: absolute;
   left: 0%;
@@ -150,7 +162,6 @@
   border: 0px;
   border-radius: 48px;
 }
-
 
 .publishBtn {
   position: absolute;
