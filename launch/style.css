@@ -17,18 +17,17 @@ body {
 
 .title {
   position: absolute;
-  width: 287px;
+  width: 90%;
   height: 56px;
-  left: 49px;
-  top: 47px;
+  left: 5%;
+  right: 5%;
 
   font-family: "Karla";
   font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 42px;
   line-height: 36px;
 
-  /* or 44% */
   text-align: center;
 
   color: #000000;
@@ -36,18 +35,15 @@ body {
 
 .appLogo {
   position: absolute;
-  width: 169px;
-  height: 193px;
-  left: 103px;
+  width: 193px;
+  height:30%;
+  left: 30%;
+  right: 30%;
   top: 213px;
 }
 
 .button {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -58,11 +54,12 @@ body {
 
 .signIn {
   position: absolute;
-  width: 327px;
+  width: 90%;
   height: 48px;
-  left: 24px;
+  left: 5%;
+  right: 5%;
   top: 512px;
-  background-color: #ffffff;
+  background-color: #c6c6c6;
 }
 .signIn:hover {
   background-color: #dedede;
@@ -73,9 +70,10 @@ body {
 
 .createAccount {
   position: absolute;
-  width: 327px;
+  width: 90%;
   height: 48px;
-  left: 24px;
+  left: 5%;
+  right: 5%;
   top: 587px;
   color: #ffffff;
   background-color: #6b4eff;
