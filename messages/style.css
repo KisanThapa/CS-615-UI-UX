@@ -1,112 +1,86 @@
-.scroll {
-  width: 100%;
-  height: 89%;
-  overflow-y: scroll;
-  position: relative;
-  margin: auto;
-}
 
-.container {
-  width: 375px;
-  margin: auto;
-  height: 100%;
-  position: relative;
-}
+    
 
-.title {
-  position: absolute;
-  width: 80%;
-  height: 56px;
-  left: 10%;
-  right: 10%;
-  top: 5%;
 
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 16px;
+.title{
 
-  align-items: center;
-  text-align: center;
+font-family: 'Karla';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
 
-  color: #000000;
+/* or 44% */
+text-align: center;
+
+color: #000000;  
 }
 
 /*************************************
 ETHAN CONVERSATION 
 **************************************/
 
-#conv1 {
-  position: relative;
-  height: 89px;
-  background-color: white;
-  border-radius: 16px;
-  margin: auto;
-  top: 120px;
-  width: 90%;
+#conv{
+    position: relative;
+    height: 89px;
+    background-color:white;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 2em;
+    width: 80%;
 }
 
-#conv2 {
-  position: relative;
-  height: 89px;
-  background-color: white;
-  border-radius: 16px;
-  margin: auto;
-  margin-top: 15px;
-  top: 120px;
-  width: 90%;
+#convPic{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 16px;
+top: 11px;
+border-radius: 50%;
 }
 
-#convPic {
-  position: absolute;
-  width: 64px;
-  height: 64px;
-  left: 16px;
-  top: 11px;
-  border-radius: 50%;
+#convName{
+    position: absolute;
+width: 204px;
+height: 22px;
+left: 95px;
+top: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
 }
 
-#convName {
-  position: absolute;
-  width: 204px;
-  height: 22px;
-  left: 95px;
-  top: 14px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
-
-  color: #000000;
+#convPreview{
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    left: 95px;
+    top: 43px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
 }
 
-#convPreview {
-  position: absolute;
-  width: 171px;
-  height: 35px;
-  left: 95px;
-  top: 43px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 16px;
-  color: #000000;
+#convTime{
+    position: absolute;
+    width: 80px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 11px;    
+    color: #000000;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
 }
 
-#convTime {
-  position: absolute;
-  width: 80px;
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 300;
-  font-size: 11px;
-  color: #000000;
-  bottom: 0;
-  right: 0;
-  margin: 5px;
-}
+
+
