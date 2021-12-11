@@ -1,10 +1,3 @@
-.scroll{
-    width: 100%;
-    height: 89%;
-overflow-y: scroll;
-position: relative;
-margin: auto;
-}
 
 .container{
     width: 375px;
@@ -13,25 +6,14 @@ margin: auto;
     position: relative;
 }
 
-.title{
+.back{
     position: absolute;
-    width: 211px;
-    height: 56px;
-    left: 144px;
-    top: 17px;
-    
-    font-family: Karla;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 16px;
-    
-    /* or 50% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #000000;
+    left: 5px;
+    top: 53px;
+    font-size: 2em;
+    font-family: 'Inter';
+    width: 28px;
+    height: 28px;
 }
 
 .photoCircle{
@@ -39,8 +21,8 @@ margin: auto;
 position: absolute;
 width: 128px;
 height: 128px;
-left: 18px;
-top: 116px;
+left: 33px;
+top: 44px;
 
 background: #FFFFFF;
 border: 1px solid #C4C4C4;
@@ -49,16 +31,12 @@ border-radius: 50%;
 
 }
 
-.camera{
-
-}
-
 .subtitle{
     position: absolute;
 width: 204px;
 height: 22px;
-left: 166px;
-top: 162px;
+left: 179px;
+top: 86px;
 
 font-family: Inter;
 font-style: normal;
@@ -77,8 +55,8 @@ color: #000000;
     position: absolute;
 width: 204px;
 height: 22px;
-left: 166px;
-top: 184px;
+left: 179px;
+top: 108px;
 
 font-family: Inter;
 font-style: normal;
@@ -93,21 +71,6 @@ align-items: center;
 color: #000000;
 }
 
-.edit{
-
-position: absolute;
-height: 48px;
-left: 24px;
-top: 268px;
-
-/* Primary/Base */
-background: #6B4EFF;
-border-radius: 48px;
-color:white;
-width: 327px;
-height: 48px;
-border: 0px;
-}
 
 .placeholder{
     position: absolute;
@@ -115,14 +78,15 @@ top: 15px;
 left: 15px;
 color: gray;
 font-family: 'Inter';
+font-size: 0.9em;
 }
 
 .gender{
     position: absolute;
 width: 139px;
 height: 18px;
-left: 29px;
-top: 346px;
+left: 27px;
+top: 196px;
 
 /* Regular/None/Medium */
 font-family: Inter;
@@ -143,8 +107,8 @@ color: #000000;
 position: absolute;
 width: 327px;
 height: 48px;
-left: 24px;
-top: 368px;
+left: 27px;
+top: 221px;
 
 background: #FFFFFF;
 border: 1px solid #E3E5E5;
@@ -156,8 +120,8 @@ border-radius: 8px;
     position: absolute;
 width: 139px;
 height: 18px;
-left: 29px;
-top: 439px;
+left: 27px;
+top: 289px;
 
 /* Regular/None/Medium */
 font-family: Inter;
@@ -175,8 +139,8 @@ color: #000000;
     position: absolute;
 width: 327px;
 height: 48px;
-left: 24px;
-top: 461px;
+left: 27px;
+top: 314px;
 
 background: #FFFFFF;
 border: 1px solid #E3E5E5;
@@ -188,8 +152,8 @@ border-radius: 8px;
     position: absolute;
 width: 139px;
 height: 18px;
-left: 29px;
-top: 532px;
+left: 27px;
+top: 382px;
 
 /* Regular/None/Medium */
 font-family: Inter;
@@ -208,8 +172,8 @@ color: #000000;
 position: absolute;
 width: 327px;
 height: 48px;
-left: 24px;
-top: 554px;
+left: 27px;
+top: 407px;
 
 background: #FFFFFF;
 border: 1px solid #E3E5E5;
@@ -221,8 +185,8 @@ border-radius: 8px;
     position: absolute;
 width: 139px;
 height: 18px;
-left: 29px;
-top: 625px;
+left: 27px;
+top: 475px;
 
 /* Regular/None/Medium */
 font-family: Inter;
@@ -240,8 +204,8 @@ color: #000000;
     position: absolute;
 width: 327px;
 height: 48px;
-left: 24px;
-top: 647px;
+left: 27px;
+top: 500px;
 
 background: #FFFFFF;
 border: 1px solid #E3E5E5;
@@ -253,8 +217,8 @@ border-radius: 8px;
     position: absolute;
 width: 139px;
 height: 18px;
-left: 29px;
-top: 718px;
+left: 27px;
+top: 568px;
 
 /* Regular/None/Medium */
 font-family: Inter;
@@ -271,9 +235,9 @@ color: #000000;
 .aboutMe2{
     position: absolute;
 width: 327px;
-height: 149px;
-left: 29px;
-top: 743px;
+height: 170px;
+left: 27px;
+top: 593px;
 
 background: #FFFFFF;
 border: 1px solid #E3E5E5;
