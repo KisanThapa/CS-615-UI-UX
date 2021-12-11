@@ -35,7 +35,7 @@
 
 .addRoomMessage {
   position: absolute;
-  width: 343px;
+  width:90%;
   height: 46px;
   left: 24px;
   top: 124px;
@@ -51,7 +51,7 @@
 
 .inputTextView {
   position: absolute;
-  width: 80%;
+  width: 90%;
   height: 18px;
   left: 24px;
   top: 200px;
@@ -66,7 +66,7 @@
 }
 .inputEditText {
   position: absolute;
-  width: 327px;
+  width: 90%;
   height: 48px;
   left: 24px;
   top: 220px;
@@ -151,10 +151,7 @@
 
 .button {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
+
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -165,7 +162,7 @@
 
 .publishBtn {
   position: absolute;
-  width: 327px;
+  width: 90%;
   height: 48px;
   left: 24px;
   right: 24px;

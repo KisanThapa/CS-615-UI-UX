@@ -1,0 +1,94 @@
+#convPic {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 15%;
+  top: 2%;
+  border-radius: 50%;
+}
+
+#convName {
+  position: absolute;
+  width: auto;
+  height: 22px;
+  left: 33%;
+  top: 3%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+#active {
+  position: absolute;
+  width: auto;
+  height: 35px;
+  left: 33%;
+  top: 7%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+#greenDot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 49%;
+  top: 7.5%;
+}
+
+
+.conversationBody {
+  position: absolute;
+  top: 13%;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  height: 85%;
+}
+
+.messageType {
+  position: absolute;
+  left: 0px;
+  height: 60px;
+  right: 0px;
+  bottom: 0px;
+  background: #ffffff;
+  border: 1px solid #e3e5e6;
+  border-radius: 100px;
+}
+
+.enterMessage {
+  position: absolute;
+  height: 16px;
+  left: 24px;
+  right: 16px;
+  top: calc(50% - 16px / 2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #72777a;
+  background: #ffffff;
+  border: 0;
+  outline: none;
+}
+
+.sendButton {
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  right: 18px;
+  top: calc(50% - 34px / 2);
+  bottom: 7.14%;
+  border: 0;
+}
