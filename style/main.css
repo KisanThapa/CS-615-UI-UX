@@ -14,7 +14,7 @@ body {
   position: fixed;
 
   background: #f4f4f4;
-  overflow-y: hidden;
+  overflow-y: scroll;
   margin: 0;
 }
 
@@ -186,3 +186,28 @@ HOME BAR
   overflow-y: hidden;
   color: #6c7072;
 }
+
+.screenTitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+  color: #090a0a;
+  text-align: center;
+}
+
+.backButton {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 5%;
+  top: 5%;
+  border: 4px;
+  background-color: #ffffff;
+}
+

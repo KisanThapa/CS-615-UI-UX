@@ -43,7 +43,7 @@
 
 .loginTitle {
   position: absolute;
-  width: 80%;
+  width: auto;
   height: 18px;
   left: 10%;
   right: 10%;
@@ -60,9 +60,7 @@
   right: 5%;
   padding-left: 3%;
   padding-right: 3%;
-
   font-size: 16px;
-
   background: #ffffff;
 
   border: 1px solid #e3e5e6;

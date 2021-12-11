@@ -1,17 +1,19 @@
 .titleText {
   position: absolute;
-  width: 150px;
+  width: 80%;
   height: 18px;
-  left: 120px;
-  top: 38px;
+  left: 10%;
+  right: 10%;
+  top: 3%;
 }
 
 .policyText {
   position: absolute;
-  width: 336px;
-  height: 679px;
-  left: 21px;
-  top: 92px;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  right: 5%;
+  top: 10%;
   overflow-y: scroll;
 
   font-family: "Inter";
@@ -22,3 +24,4 @@
 
   color: #000000;
 }
+
