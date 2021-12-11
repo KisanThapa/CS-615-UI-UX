@@ -1,19 +1,22 @@
 .signUpTitle {
   position: absolute;
-  width: 80px;
+  width: 80%;
   height: 18px;
-  left: 170px;
-  top: 38px;
+  left: 10%;
+  right: 10%;
+  top: 3%;
+  text-align: center;
 }
 
 .emailInput {
   position: absolute;
-  width: 313px;
+  width: 84%;
   height: 48px;
-  left: 24px;
+  left: 5%;
   top: 207px;
-  padding-left: 15px;
-  padding-right: 15px;
+  right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
 
   font-size: 16px;
   background: #ffffff;
@@ -25,16 +28,16 @@
 
 .passwordInput {
   position: absolute;
-  width: 313px;
+  width: 84%;
   height: 48px;
-  left: 24px;
+  left: 5%;
   top: 272px;
-  padding-left: 15px;
-  padding-right: 15px;
+  right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
   font-size: 16px;
 
   background: #ffffff;
-  /* Sky/Light */
 
   border: 1px solid #e3e5e6;
   border-radius: 8px;
@@ -42,16 +45,16 @@
 
 .confirmPasswordInput {
   position: absolute;
-  width: 313px;
+  width: 84%;
   height: 48px;
-  left: 24px;
+  left: 5%;
   top: 337px;
-  padding-left: 15px;
-  padding-right: 15px;
+  right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
   font-size: 16px;
 
   background: #ffffff;
-  /* Sky/Light */
 
   border: 1px solid #e3e5e6;
   border-radius: 8px;
@@ -78,10 +81,6 @@
 
 .button {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -92,10 +91,10 @@
 
 .signUp {
   position: absolute;
-  width: 327px;
+  width: 90%;
   height: 48px;
-  left: 24px;
-  right: 24px;
+  left: 5%;
+  right: 5%;
   top: 550px;
   color: #ffffff;
   background-color: #6b4eff;

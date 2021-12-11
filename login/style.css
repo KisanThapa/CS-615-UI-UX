@@ -1,44 +1,21 @@
 .termsCondition {
   position: absolute;
   height: 32px;
-  left: 34px;
-  right: 24px;
+  left: 5%;
+  right: 5%;
   top: 480px;
-  width: 345px;
+  width: 90%;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  align-items: flex-end;
-  text-align: left;
   color: #090a0a;
-}
-.privacyPolicy {
-  position: absolute;
-  height: 32px;
-  left: 34px;
-  right: 24px;
-  top: 495px;
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
-
-  display: flex;
-  align-items: flex-end;
-
-  color: #090a0a;
+  text-align: center;
 }
 
 .button {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -49,10 +26,10 @@
 
 .logIn {
   position: absolute;
-  width: 327px;
+  width: 90%;
   height: 48px;
-  left: 24px;
-  right: 24px;
+  left: 5%;
+  right: 5%;
   top: 550px;
   color: #ffffff;
   background-color: #6b4eff;
@@ -66,25 +43,27 @@
 
 .loginTitle {
   position: absolute;
-  width: 80px;
+  width: 80%;
   height: 18px;
-  left: 170px;
-  top: 38px;
+  left: 10%;
+  right: 10%;
+  top: 3%;
+  text-align: center;
 }
 
 .emailInput {
   position: absolute;
-  width: 313px;
+  width: 84%;
   height: 48px;
-  left: 24px;
+  left: 5%;
   top: 207px;
-  padding-left: 15px;
-  padding-right: 15px;
+  right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
 
   font-size: 16px;
 
   background: #ffffff;
-  /* Sky/Light */
 
   border: 1px solid #e3e5e6;
   border-radius: 8px;
@@ -92,16 +71,16 @@
 
 .passwordInput {
   position: absolute;
-  width: 313px;
+  width: 84%;
   height: 48px;
-  left: 24px;
+  left: 5%;
+  right: 5%;
   top: 272px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 3%;
+  padding-right: 3%;
   font-size: 16px;
 
   background: #ffffff;
-  /* Sky/Light */
 
   border: 1px solid #e3e5e6;
   border-radius: 8px;
@@ -110,8 +89,8 @@
 .forgetPassword {
   position: absolute;
   height: 16px;
-  left: 226px;
-  top: 338px;
+  right: 4%;
+  top: 340px;
   padding: 2px;
 
   font-family: Inter;
