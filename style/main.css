@@ -211,3 +211,12 @@ HOME BAR
   background-color: #ffffff;
 }
 
+.commonBack {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  font-size: 2em;
+  font-family: "Inter";
+  width: 28px;
+  height: 28px;
+}
