@@ -409,6 +409,21 @@
   background-color: #6b4eff;
 }
 
+
+.trial{
+  position: absolute;
+  width: 295px;
+  height: 32px;
+  left: 27px;
+  top: 181px;
+
+
+  
+
+}
+
+
+
 .field1 {
   position: absolute;
   width: 134px;
