@@ -27,55 +27,49 @@
             <button class="room">Room</button>
             <button class="apartment">Apartment</button>
 
-            <div class="trial">
 
+            <span class="priceText">Price Range:</span>
 
-            <label for="price">Price Range:</label>
-            
-
-         
-
-            <select id="price">
-            <option label="0-500$">first</option>
-            <option label="500-1k$">second</option>
-            <option label="1k-1.5K">third</option>
-            <option label="1.5K-2k">fourth</option>
-            </select>
-
-        </div>
-
-       
-            
-            
-
-            
-        
-            <!-- <img class="range_slider" src="../imgs/range_slider.svg"/>
-
-            <img class="range_slider" src="../imgs/range_slider.svg" />
-
-            <img src="../imgs/filter_elements.svg" class="filterElements"/> -->
+            <input class="rangeSlider" type="range" value="100" min="100" max="3000" oninput="this.nextElementSibling.value = this.value">
+            <output class="outputSlider">100</output>
+            <span class="uptoText">Upto $ </span>
 
             <span class="typeBedrooms">Bedrooms:</span>
-            <input type="text" class="field1">
-
+            <select class="dropDownStyle bedRoomChooser">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
 
             <span class="typeFloor">Floor:</span>
-            <input type="text" class="field2">
+            <select class="dropDownStyle floorChooser">
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
 
 
             <span class="typeKitchen">Kitchen:</span>
-            <input type="text" class="field3">
-
+            <select class="dropDownStyle kitchenChooser">
+                <option value="Required" selected>Required</option>
+                <option value="Not required">Not Required</option>
+                
+            </select>
 
 
             <span class="typeRadius">Radius:</span>
-            <input type="text" class="field4">
-
+            <select class="dropDownStyle radiusChooser">
+                <option value="10 miles" selected>10 miles</option>
+                <option value="20 miles">20 miles</option>
+                <option value="30 miles">30 miles</option>
+            </select>
 
             <span class="typeBackyard">Backyard:</span>
-            <input type="text" class="field5">
-
+            <select class="dropDownStyle backyardChooser">
+                <option value="Yes" selected>Yes</option>
+                <option value="No">No</option>
+                
+            </select>
 
             <span class="typeFacilities">Facilities:</span>
 
